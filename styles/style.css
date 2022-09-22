@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    color: #070707;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #070707;
+}
+
+button {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #070707;
+    letter-spacing: 0.1em;
+    border-radius: 22px;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item {
+    margin: 0 20px;
+    color: #828282;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.menu_item:hover {
+    color: #070707;
+}
+
+.container {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about, .portfolio {
+    background-color: #F6F6F6;
+}
+
+.about_wrapper {
+    text-align: center;
+}
+
+.skills_wrapper {
+    text-align: center;
+}
+
+.app_wrapper {
+    display: flex;
+}
+
+.app_item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+.app_logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.app_text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    max-width: 80px;
+}
+
+.app_rate {
+    height: 26px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like_me {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    width: 200px;
+    text-align: center;
+}
+
+.like_me span {
+    display: block;
+}
