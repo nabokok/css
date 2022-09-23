@@ -104,7 +104,8 @@ button {
     font-size: 14px;
     line-height: 19px;
     color: #828282;
-    max-width: 80px;
+    max-width: 85px;
+    flex-grow: 1;
 }
 
 .app_rate {
